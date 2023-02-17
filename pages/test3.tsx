@@ -1,15 +1,11 @@
-import Hello from './Hello';
-import Hello2 from './Hello2';
+import Parent from './Parent';
 
 export default function Test3() {
   return (
     <>
-      <Hello>
-        <p>watasu</p>
-      </Hello>
-      <Hello2>
-        <p>watasu2</p>
-      </Hello2>
+      <Parent title={'childrenのテスト'}>
+        <p>kodomo</p>
+      </Parent>
     </>
   );
 }
